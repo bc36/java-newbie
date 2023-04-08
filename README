@@ -1,0 +1,4 @@
+Some java demo code
+
+Java Reserved Keywords: 48 + 2 (const, goto) + 3 (true, false, null). 
+Seldom used: do, strictfp, transient, volatile

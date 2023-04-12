@@ -4,8 +4,8 @@ Java Reserved Keywords: 48 + 2 (const, goto) + 3 (true, false, null).
 Seldom used: do, strictfp, transient, volatile
 
                 Access Levels
-Modifier	Class	Package	Subclass	World
-public	    Y	    Y	    Y	        Y
-protected	Y	    Y	    Y	        N
-no modifier	Y	    Y	    N	        N
-private	    Y	    N	    N	        N
+Modifier    Class  Package  Subclass  World
+public      Y      Y        Y         Y
+protected   Y      Y        Y         N
+no modifier Y      Y        N         N
+private     Y      N        N         N

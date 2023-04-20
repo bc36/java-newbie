@@ -40,7 +40,7 @@ public class Car {
 
     // can be used to get the handle of the current class
     void printCls() {
-        Class cls = this.getClass();
+        Class<?> cls = this.getClass();
         System.out.println(cls.getName());
     }
 

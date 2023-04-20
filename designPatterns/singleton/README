@@ -1,0 +1,12 @@
+Singleton: 
+    ensure that there is one and only one instance of a class in a process.
+
+    1. "private constructor"
+    2. "private static" to ensure global unique
+    3. "public static" to get instance
+
+
+Singleton 模式是为了保证一个程序的运行期间, 某个类有且只有一个全局唯一实例
+    1. 只有 private 构造方法, 确保外部无法实例化
+    2. 通过 private static 变量持有唯一实例, 保证全局唯一性
+    3. 通过 public static 方法返回此唯一实例, 使外部调用方能获取到实例

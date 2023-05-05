@@ -1,0 +1,15 @@
+Adapter 模式可以将一个 A 接口转换为 B 接口, 使得新的对象符合 B 接口规范. 编写 Adapter 实际上就是编写一个实现了 B 接口, 并且内部持有 A 接口的类:
+
+public BAdapter implements B {
+    private A a;
+    public BAdapter(A a) {
+        this.a = a;
+    }
+    public void b() {
+        a.a();
+    }
+}
+
+在 Adapter 内部将 B 接口的调用"转换"为对 A 接口的调用. 只有 A、B 接口均为抽象接口时, 才能非常简单地实现 Adapter 模式
+
+这种类型的设计模式属于结构型模式，它结合了两个独立接口的功能。这种模式涉及到一个单一的类，该类负责加入独立的或不兼容的接口功能

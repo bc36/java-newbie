@@ -1,6 +1,4 @@
-Singleton: 
-    ensure that there is one and only one instance of a class in a process.
-
+Singleton ensures that there is one and only one instance of a class in a process.
     1. "private constructor"
     2. "private static" to ensure global unique
     3. "public static" to get instance

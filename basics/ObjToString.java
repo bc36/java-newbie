@@ -3,10 +3,12 @@ package basics;
 public class ObjToString {
     public static void main(String[] args) {
         Integer x = 5;
+        x.toString();
         // System.out.println((String) x); // Cannot cast from Integer to String
         // Compile Error: incompatible types: Integer cannot be converted to String
 
         Object y = 5;
+        y.toString();
         // System.out.println((String) y);
         // Can pass compilation checks, but have
         // java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.String

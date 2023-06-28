@@ -1,4 +1,4 @@
-package keywords.superdemo;
+package keywords.super_;
 
 /**
  * super

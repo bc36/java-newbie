@@ -1,4 +1,4 @@
-package designPatterns.singleton;
+package design.pattern.singleton;
 
 // Java guarantees that each enumeration of an enumeration class is a singleton
 public enum Singleton2 {

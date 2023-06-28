@@ -1,4 +1,4 @@
-package designPatterns.adapter;
+package design.pattern.adapter;
 
 import java.util.concurrent.Callable;
 

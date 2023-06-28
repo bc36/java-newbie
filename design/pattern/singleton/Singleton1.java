@@ -1,4 +1,4 @@
-package designPatterns.singleton;
+package design.pattern.singleton;
 
 public class Singleton1 {
     private static final Singleton1 INSTANCE = new Singleton1();
